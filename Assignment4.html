@@ -12,7 +12,9 @@
     <h2 align="center">Hotel Room Booking Form </h2>
     <hr>
     <br>
-    <form action="/submit" method="post" align="center">
+    <form action="/submit" method="post" >
+        <fieldset>
+            <legend> Personal Details</legend>
         <div>
             <label for="name">Full Name:</label>
             <input id="name" type="text" placeholder="" required>
@@ -27,6 +29,7 @@
             <label for="phone">Phone:</label>
             <input id="phone" type="tel" placeholder="" required>
         </div>
+        </fieldset>
         <br>
         <div>
             <label for="checkin">Check-in-Date:</label>
