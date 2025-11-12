@@ -3,7 +3,9 @@
 
 
 }
-
+body{
+    background-color: #cccc;
+}
 
 img {
     padding: 1px;
@@ -12,6 +14,9 @@ img {
     height: 250px;
 }
 
+table{
+    background-color: white;
+}
 
 button {
     color: white;
