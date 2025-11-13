@@ -1,0 +1,49 @@
+/* General styling */
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Block Example */
+.block-menu a {
+    display: block;
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+/* Inline Example */
+.inline-menu a{
+    display: inline;
+    background-color: rgb(103, 235, 103);
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+
+}
+
+/* Inline-Block Menu*/
+.inline-block-menu a{
+    display: inline-block-menu;
+    background-color:rgb(233, 74, 233) ;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+
+}
+/* Float Menu */
+.float-menu a{
+    float: left;
+    background-color: orange;
+    color: white;
+    padding: 20px;
+    margin: 5px;
+    text-decoration: none;
+
+}
+.clear{
+    clear: both;
+}
