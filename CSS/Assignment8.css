@@ -10,6 +10,7 @@ body{
     margin: 10px;
 }
 .box{
+
     padding: 25px 70px;
     background-color: whitesmoke;
     border: 2px solid rgb(51, 140, 243);
@@ -30,8 +31,10 @@ body{
     font-weight: bold;
     color: white;
     padding: 10px;
-    margin-left: 22px;
+    margin: 0 auto;
+
 }
 .card{
     margin-left: 15px;
+    text-align: center;
 }
