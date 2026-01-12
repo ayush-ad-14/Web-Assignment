@@ -4,35 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Understanding CSS and Float</title>
+    <title>Float Example</title>
     <link rel="stylesheet" href="./Float.css">
 </head>
 
 <body>
-    <h1> Understanding Float and Clear in CSS</h1>
-    <h2> Example 1: Without Clear</h2>
-        <fieldset>
-        <div class="float-menu">
-            <span id="box1">Box 1</span>
-            <span id="box2">Box 2</span>
-            <span id="box3">Box 3</span>
+    <h1>Understanding Float and Clear in CSS</h1>
+    <h2>Example 1: Without Clear</h2>
+    <div class="container1">
+        <div class="box">
+            <div class="box1">Box 1</div>
+            <div class="box2">Box 2</div>
+            <div class="box3">Box 3</div>
+            <p>The paragraph appears besides the floated boxes because we have not used clear</p>
         </div>
-      
-        <div>
-            <p> This paragraph appears behind the boxes we have NOT used clear </p>
+    </div>
+    <hr>
+    <h2>Example 2: With Clear</h2>
+    <div class="container2">
+        <div class="box">
+            <div class="box4">Box 1</div>
+            <div class="box5">Box 2</div>
+            <div class="box6">Box 3</div>
+            <div class="clear"></div>
+            <p>This paragraph appears BELOW the floated boxes because we used clear:both</p>
         </div>
-        </fieldset>
-        <hr>
-        <h2>Example 2: With Clear</h2>
-        <fieldset>
-            <p>This paragraph comes below the floated boxes because we used clear both</p>
-        <div class="inline-block-menu2">
-            <span id="box4">Box 1</span>
-            <span id="box5">Box 2</span>
-            <span id="box6">Box 3</span>
-        </div>
-        
-        
+    </div>
+
 </body>
 
 </html>
